@@ -4,7 +4,9 @@ import { GET_EPISODES } from "../graphql/queries"
 import { EpisodeProps } from "../interfaces"
 // Update the import path below if EpisodeCard is located elsewhere
 // Update the path below to the actual location of EpisodeCard, for example:
-import EpisodeCard from "../components/EpisodeCard"
+// Update the path below to the actual location of EpisodeCard, for example:
+// import EpisodeCard from "../components/cards/EpisodeCard"
+import EpisodeCard from "../components/common/EpisodeCard"
 // If the file is in a different folder, adjust the path accordingly, e.g.:
 // import EpisodeCard from "../components/cards/EpisodeCard"
 import { useEffect, useState } from "react"
